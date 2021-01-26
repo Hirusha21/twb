@@ -15,21 +15,21 @@ const speed = require('performance-now');
 const apivhtear = 'apikey';
 const apibarbar = 'apikey';
 const tobzkey = 'apikey';
-const BotName = 'Lexa';
-const wa = 'https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst';
+const BotName = 'SLHackers Team Bot';
+const wa = 'https://chat.whatsapp.com/F1AwMMtH2Nm8jVEcOoYpi3';
 const eror = 'Info fitur Error';
-const ow = 'Mrf.zvx';
-const nomorowner = '082223014661';
-const ovo = '082223014661';
-const pulsa = '082223014661';
-const dana = '082223014661';
-const instagram = 'http://www.instagram.com/mrf.zvx';
+const ow = 'Hirusha Dayarathne';
+const nomorowner = '0755681782';
+const ovo = '0755681782';
+const pulsa = '0755681782';
+const dana = '0755681782';
+const instagram = 'https://www.youtube.com/c/GeekHirusha/';
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n'
   + 'FN:Mrf.zvx\n' // Nama kamu
   + 'ORG:Lexa;\n' // Nama bot
-  + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
+  + 'TEL;type=CELL;type=VOICE;waid=940755681782:+94 755-681-782\n' //Nomor whatsapp kamu
   + 'END:VCARD'
 //
 const
@@ -420,7 +420,7 @@ conn.on('message-new', async (m) => {
   if (text.includes('.donasi')) {
     conn.sendMessage(id, `Bantu donasi agar bot bisa terus berjalan.
 
- اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ
+ ඔබ සතුව දින කැබැල්ලක් තිබුණත් ගින්නෙන් පරිස්සම් වන්න. හොඳ වචනයක් සොයාගත නොහැකි තැනැත්තා
 _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_
 
 *Pulsa :* _${pulsa}_
